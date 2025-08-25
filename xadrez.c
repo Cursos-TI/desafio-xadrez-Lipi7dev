@@ -25,7 +25,24 @@ int main(){
     {
         printf("Frente\n");
     }
-    
+
+// Movimentação do cavalo
+
+   int cavalo = 1;
+
+   while (cavalo --)
+   {
+    for (int i = 0; i < 2; i++)
+    {
+        printf("Cima\n");
+    }
+   
+    printf("Esquerda\n");
+}
+
+
+
+
 return 0;
 
 }
